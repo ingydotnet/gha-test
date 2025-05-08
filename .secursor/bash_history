@@ -1,0 +1,86 @@
+curl -s https://softwarecrisis.dev/letters/llmentalist/ | cat
+mkdir -p .github/workflows src tests
+ll
+ls -l
+gst
+vim ~/.secursor/bashrc 
+exec bash
+ll
+vim ~/.secursor/bashrc 
+exec bash
+she
+echo $PROMPT_COMMAND 
+exec bash
+echo $PROMPT_COMMAND 
+she
+she
+type she
+source ~/.secursor/bashrc
+she
+she
+she
+she
+she
+she
+clear
+make test
+sudo apt install python3-venv
+make test
+make clean && make test
+make clean && make test
+mkdir -p calculator && mv src/calculator.py calculator/ && rm -r src
+make clean && make test
+make test
+make test
+ls -al
+gst
+git init && git status
+gst
+source /etc/bash_completion
+make clean 
+gst
+make clean
+git status
+gst
+git add .
+gc
+she
+she
+gc
+echo $WORKDIR/
+mkdir .secursor
+vim .secursor/bashrc
+she
+mv .git/.ext/tmp/.bash_history .secursor/bash_history
+cd .git/.ext/
+ls -l
+ls -al
+cd tmp/
+ls -l
+ls -al
+vim .
+ln -s ../../../.secursor/bash_history .bash_history
+ls -la
+cd -
+cd ../..
+vim ~/.secursor/bashrc 
+she
+ll
+she
+ll
+ll
+la
+she
+ll
+la
+ll
+gst
+type gcam
+she
+gd
+gcam Fix GHA workflow to install requirements
+gll
+she
+gll
+glll
+ll
