@@ -15,3 +15,8 @@ clean:
 	find . -type f -name "*.pyc" -delete
 	rm -rf *.egg-info
 	rm -rf .pytest_cache
+
+update: .github/workflows/.*.yml
+
+.github/workflows/.%.yml: .github/workflows/%.ys
+	ys -Yf $< > $@

@@ -1,20 +1,20 @@
+!YS-v0:
+
+on =:: { branches: [ main ] }
+
 name: Python Tests
-'on':
-  push:
-    branches:
-    - main
-  pull_request:
-    branches:
-    - main
+
+on:
+  push:: on
+  pull_request:: on
+
 jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version:
-        - '3.9'
-        - '3.10'
-        - '3.11'
+        python-version:: (9 .. 11).mapv(\("3.$(S(_))"))
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
