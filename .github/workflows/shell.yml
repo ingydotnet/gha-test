@@ -8,11 +8,12 @@ name: Env Info
     - main
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v3
     - name: Runtime Info
       run: |
+        set -x
         pwd
         ls -al
         set | grep ^BASH
