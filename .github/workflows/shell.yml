@@ -1,4 +1,4 @@
-name: Python Tests
+name: Env Info
 'on':
   push:
     branches:
@@ -17,3 +17,6 @@ jobs:
         ls -al
         set | grep ^BASH
         which bash
+        ls -l /bin/bash /bin/sh
+        bash --version
+        sh --version
